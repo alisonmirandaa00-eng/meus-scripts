@@ -1,0 +1,4 @@
+update cliente set 
+operacao_consumidor_final=0,
+indicador_ie_destinatario=1
+where tipo='J'

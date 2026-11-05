@@ -1,0 +1,5 @@
+select 
+'update item set custo_medio_real='||custocomimposto||',
+ultimo_custo_real='||custocomimposto||',,
+custo_medio_contabil='||custosemimposto||',
+ultimo_custo_contabil='||custosemimposto||', where codigo='||id||';' from produtos
