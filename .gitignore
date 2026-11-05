@@ -1,0 +1,30 @@
+# Backups e arquivos de banco de dados (evita subir dados pesados/sensíveis)
+*.bak
+*.dmp
+*.dump
+*.sqlite
+*.sqlite3
+*.db
+*.mdf
+*.ldf
+*.ndf
+
+# Exportações de dados e logs
+*.csv
+*.tsv
+*.xlsx
+*.log
+
+# Credenciais e variáveis de ambiente
+.env
+.env.*
+*secret*
+*credentials*
+
+# Arquivos temporários de sistema e editores
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+*~
